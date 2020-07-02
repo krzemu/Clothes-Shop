@@ -1,0 +1,161 @@
+.container{
+    /* border:1px solid black; */
+    min-width: 1200px;
+    min-height: 600px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    flex-direction: column; 
+}
+
+.arrow{
+    width:80px;
+}
+
+.arrow img{
+    width:80px;
+}
+
+.arrow:hover{
+    cursor: pointer;
+
+}
+
+
+.TopSide{
+    display:flex;
+}
+
+.BottomSide{
+    margin-bottom:200px;
+    width:1200px;
+    
+}
+
+
+.lf_col{
+    width:600px;
+    margin:0;
+    padding:0;
+    /* border:1px solid navy; */
+    min-height: 400px;
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+.selection{
+    width:400px;
+    height:520px;
+    margin-left: 100px;
+    margin-right:100px;
+
+    text-align: center;
+    font-size:18px;
+}
+
+.selection img{
+    width:400px;
+    height:520px;
+    
+}
+
+.rt_col{
+    width:600px;
+    margin:0;
+    padding:0;
+    /* border:1px solid green; */
+    display:flex;
+    flex-direction: column;
+
+}
+
+#Ndiv{
+    text-align:left;
+    letter-spacing: 1px;
+    width:400px;
+    margin-left:100px;
+    padding:10px;
+    font-size:22px;
+    margin-top:150px;
+
+}
+
+#Pdiv
+{
+    font-size:20px;
+    margin-left:100px;
+    padding:10px;
+}
+
+
+.colorDots{
+    width:500px;
+    margin-left:100px;
+    /* border:1px solid red; */
+    min-height: 30px;
+    display:flex;
+
+    padding:10px;
+}
+
+.rt_col p{
+    font-size:18px;
+    margin-left:110px;
+    letter-spacing: 1px;
+}
+
+.dots{
+    height:30px;
+    width:30px;
+    border:2px solid black;    
+    border-radius:100%;
+    background-color:red;
+    margin-right:10px;
+    flex-direction: row;
+    cursor:pointer;
+}
+
+.dots:hover{
+    border:2px solid #604545;
+}
+
+
+.BuyButton{
+    width:150px;
+    height:30px;
+    padding:5px;
+    background-color:#ffe400;
+    color:#201726;
+    border:1px solid #eed300;
+    border-radius:15px;
+    margin-left:110px;
+    margin-top:20px;
+    cursor: pointer;
+    text-align: center;
+    /* letter-spacing: 1px; */
+    text-transform: uppercase;
+    font-weight: 700;
+
+}   
+
+
+
+.BuyButton:hover{
+    background-color:#ddc200;
+    border:1px solid #ccb100;
+}
+
+
+.products{
+    display:flex;
+    flex-direction: row;
+}
+
+.BottomSide p{
+    font-size:22px;
+    margin-left:100px;
+    margin-top:100px;
+    letter-spacing: 1px;
+}
