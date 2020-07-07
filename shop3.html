@@ -12,7 +12,6 @@
         <link rel="stylesheet" href="css/layout.css">
         <link rel="stylesheet" href="css/layoutShop.css">
         <link rel="stylesheet" href="css/fontello.css">
-        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
 
     </head>
     <body>
@@ -36,11 +35,11 @@
             <div class="spacex100"></div>
             
             <article>
-                <div class="container">
+                <div class="sectionBox">
                     <aside>
                         <nav>
-                            <ul>
-                                <li>Menu</li>
+                            <ul id="stickyMenu">
+                                <li >Menu</li>
                                 <li><a href="shop1.html">Kurtki</a></li>
                                 <li><a href="shop2.html">Bluzy</a></li>
                                 <li><a href="#">Koszulki</a></li>
@@ -52,12 +51,12 @@
                     </aside>
 
                     <section>
-                        <p>Koszulki</p>
-                        <a href="product.html"><div class="product"><img src="img/clothes/t-shirt/t-shirt1.jpg" alt="">100zł</div></a>
-                        <a href="#"><div class="product"><img src="img/clothes/t-shirt/t-shirt2.jpg" alt="">180zł</div></a>
-                        <a href="#"><div class="product"><img src="img/clothes/t-shirt/t-shirt3.jpg" alt="">220zł</div></a>
-                        <a href="#"><div class="product"><img src="img/clothes/t-shirt/t-shirt4.jpg" alt="">150zł</div></a>
-                        <a href="#"><div class="product"><img src="img/clothes/t-shirt/t-shirt4.jpg" alt="">130zł</div></a>
+                        <p>Kurtki</p>
+                        <a href="product.html"><div class="direct"><img src="img/clothes/t-shirt/t-shirt1.jpg" alt="">100zł</div></a>
+                        <a href="#"><div class="direct"><img src="img/clothes/t-shirt/t-shirt2.jpg" alt="">180zł</div></a>
+                        <a href="#"><div class="direct"><img src="img/clothes/t-shirt/t-shirt3.jpg" alt="">220zł</div></a>
+                        <a href="#"><div class="direct"><img src="img/clothes/t-shirt/t-shirt4.jpg" alt="">150zł</div></a>
+                        <a href="#"><div class="direct"><img src="img/clothes/t-shirt/t-shirt4.jpg" alt="">130zł</div></a>
 
                     </section>
                 </div>
@@ -70,7 +69,7 @@
             <footer>
                 <div class="square">
                     <div class="fsquare">
-                        <ul>
+                        <ul >
                             <li>E-SKLEP</li>
                             <li><a href="#">Formy płatności</a></li>
                             <li><a href="#">Koszt i czas dostawy</a></li>
@@ -124,6 +123,8 @@
 
 
         
-        <script src="" async defer></script>
+        
+            <script src="js/jquery.js"></script>
+            <script src="js/stickyNav.js" async defer></script>
     </body>
 </html>

@@ -1,14 +1,16 @@
 body{  
+    width:100%;
     margin:0;
     padding:0;
     background-color: #fcfbfa;
     box-sizing: border-box;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
     position: -webkit-sticky;
     position: sticky;
+    z-index: 100;
     top:0px;
     background-color: #222334;
     width: 100%;
@@ -23,6 +25,7 @@ header{
     margin-right:auto;
     display:flex;
     align-content: center;
+    
 }
 
 .logo{
