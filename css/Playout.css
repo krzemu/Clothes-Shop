@@ -103,6 +103,7 @@
 .rt_col p{
     font-size:18px;
     margin-left:110px;
+    text-align: left;
     letter-spacing: 1px;
 }
 
@@ -111,7 +112,7 @@
     width:30px;
     border:2px solid black;    
     border-radius:100%;
-    background-color:red;
+    /* background-color:red; */
     margin-right:10px;
     flex-direction: row;
     cursor:pointer;
@@ -160,3 +161,17 @@
     letter-spacing: 1px;
 }
 
+
+
+#Rdot{
+    background-color:red;
+
+}
+
+#Bdot{
+    background-color:blue;
+}
+
+#Gdot{
+    background-color:gray;
+}

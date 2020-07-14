@@ -10,20 +10,16 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/layout.css">
+        <link rel="stylesheet" href="css/Playout.css">
         <link rel="stylesheet" href="css/layoutShop.css">
+        <link rel="stylesheet" href="css/layoutScript.css">
         <link rel="stylesheet" href="css/fontello.css">
-        <link rel="stylesheet" href="css/popout.css">
-
-       
 
     </head>
-    <body onload= "changeAdv()">
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <!-- <div id="popOut"></div> -->
-
         <div class="container">
             <header>
                 <div class="header">
@@ -37,30 +33,13 @@
                     </div>
                 </div>
             </header>
-
             <div class="spacex100"></div>
-
-            <article>
-                <p>Lorem lipsum</p>
-                <div class="adv" id="slider">
-                    <!-- slider <img src="img/slider/slider0.jpg" alt="slider"> -->
-                </div>
-
-                
-                <nav>
-                    <p>Wybierz kategorie</p>
-                    <a href="shop1.html"><div class="product"><img src="img/clothes/jacket/jacket1.jpg" alt="">Kurtki</div></a>
-                    <a href="shop2.html"><div class="product"><img src="img/clothes/hoodie/hoodie1.jpg" alt="">Bluzy</div></a>
-                    <a href="shop3.html"><div class="product"><img src="img/clothes/t-shirt/t-shirt1.jpg" alt="">Koszulki</div></a>
-                    <a href="shop4.html"><div class="product"><img src="img/clothes/trousers/trousers1.jpg" alt="">Spodnie</div></a>
-                    <a href="shop5.html"><div class="product"><img src="img/clothes/hat/hat1.jpg" alt="">Czapki</div></a>
-                   
-     
-                </nav>
+            <article  id="shopLabel">
+                <section id="startMenu">
+                </section>
             </article>
-            
-            <div class="spacex100"></div>
 
+            <div class="space"></div>
 
             <footer>
                 <div class="square">
@@ -113,12 +92,13 @@
                     </div>
                         
             </footer>
+
         </div>
 
 
 
         <script src="js/jquery.js"></script>
-        <script src="js/mainScript.js" async defer></script>
-        <script src="js/popOutWindow.js" async defer></script>
+        <!-- <script src="js/popOutWindow.js" async defer></script> -->
+        <script src="js/shopScript.js" async defer></script>
     </body>
 </html>

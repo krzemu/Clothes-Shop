@@ -11,7 +11,7 @@ function changeAdv()
 {
     i++;
     if (i > 3) i = 0;
-    let image = '<img src="img/slider/slider'+i+'.jpg" alt="slider">';
+    let image = '<img src="img/slider/main'+i+'.jpg" alt="slider">';
     slider.innerHTML = image;
     $("#slider").fadeIn(500);
 

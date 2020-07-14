@@ -52,3 +52,4 @@ function removePopOut()
     $('.container').css('filter', 'blur(0)');
 
 }
+
